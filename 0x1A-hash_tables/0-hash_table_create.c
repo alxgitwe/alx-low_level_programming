@@ -2,6 +2,7 @@
 
 /**
  * hash_table_create - hash table
+ *
  * @x: size
  *
  * Return: return
@@ -10,6 +11,7 @@
 hash_table_t *hash_table_create(unsigned long int x)
 {
 	hash_table_t *y;
+
 	unsigned long int j;
 
 	y = malloc(sizeof(hash_table_t));
